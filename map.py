@@ -127,7 +127,7 @@ def make_deck(schools: pd.DataFrame) -> pdk.Deck:
 
 def main() -> None:
     st.set_page_config(page_title="NC school outcomes map", layout="wide")
-    st.title("NC high schools")
+    st.title("NC High Schools")
     st.caption(
         "2026 ODIS community barriers + 2024–25 NC DPI outcomes; "
         "2024–25 NCES school locations. Matched non-charter schools only."
